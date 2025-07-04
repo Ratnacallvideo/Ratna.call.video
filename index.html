@@ -3,18 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Ratna Call Video 💗</title>
-  <link rel="icon" href="https://i.imgur.com/gDYJYRt.jpeg" type="image/jpeg" />
+  <title>Ratna Call Video</title>
+  <link rel="icon" href="https://i.imgur.com/gDYJYRt.jpeg" type="image/jpeg"/>
   <style>
     body {
       margin: 0;
-      background-color: #000;
+      background-color: #111;
       color: #fff;
-      font-family: Arial, sans-serif;
-      text-align: center;
+      font-family: "Segoe UI", Roboto, Arial, sans-serif;
       display: flex;
       flex-direction: column;
       align-items: center;
+      text-align: center;
     }
 
     img {
@@ -25,50 +25,54 @@
 
     h1 {
       margin-top: 20px;
-      font-size: 24px;
-      color: #ff69b4;
+      font-size: 20px;
+      font-weight: bold;
+      color: #25d366;
+      text-transform: uppercase;
     }
 
     .btn {
       margin-top: 15px;
-      background-color: #ff007f;
+      background-color: #25d366;
       color: white;
       padding: 15px 30px;
       border: none;
-      border-radius: 12px;
+      border-radius: 30px;
       font-size: 20px;
       cursor: pointer;
       text-decoration: none;
+      animation: pulse 1.5s infinite;
     }
 
-    .btn:hover {
-      background-color: #e60073;
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.08); }
+      100% { transform: scale(1); }
     }
 
     .ads {
       margin-top: 30px;
       width: 100%;
       max-width: 480px;
+      display: none;
     }
   </style>
 </head>
 <body>
 
-  <!-- Gambar utama (Landing Page) -->
+  <!-- Gambar utama -->
   <img src="https://i.imgur.com/d5uzPoY.jpeg" alt="Landing Ratna" />
 
   <!-- Teks ajakan -->
-  <h1>Call me via video 💗💗</h1>
+  <h1>CALL ME VIA VIDEO 💗💗</h1>
 
   <!-- Tombol CALL -->
   <a href="http://tipssuksesusiamuda19.blogspot.com" class="btn" onclick="showAds()">CALL</a>
 
-  <!-- Area untuk iklan -->
-  <div class="ads" id="adsArea" style="display: none;">
+  <!-- Area iklan -->
+  <div class="ads" id="adsArea">
     <!-- Popunder -->
-    <script id="popunderScript" type='text/javascript'>
-      document.write("<scr" + "ipt type='text/javascript' src='//profitableratecpm.com/44/20/59/4420592e6a2285f083367a6fc1fca614.js'></scr" + "ipt>");
-    </script>
+    <script type='text/javascript' src='//profitableratecpm.com/44/20/59/4420592e6a2285f083367a6fc1fca614.js'></script>
 
     <!-- Native Banner -->
     <div style="margin-top:20px;">
@@ -79,7 +83,6 @@
 
   <script>
     function showAds() {
-      // Tampilkan iklan setelah klik CALL
       document.getElementById("adsArea").style.display = "block";
     }
   </script>
