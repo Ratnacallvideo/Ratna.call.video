@@ -2,93 +2,97 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ratna Call Video</title>
-  <link rel="icon" href="https://i.imgur.com/gDYJYRt.jpeg" type="image/jpeg" />
+  
+  <!-- Favicon -->
+  <link rel="icon" href="https://i.imgur.com/eZb6ZxN.jpeg" type="image/jpeg" />
+  
+  <!-- Open Graph (thumbnail saat dibagikan) -->
+  <meta property="og:title" content="Ratna Call Video" />
+  <meta property="og:description" content="Klik untuk video call dengan Ratna 😘" />
+  <meta property="og:image" content="https://i.imgur.com/eZb6ZxN.jpeg" />
+  <meta property="og:url" content="https://ratnacallvideo.github.io/Ratna.call.video/" />
+  <meta property="og:type" content="website" />
+
   <style>
     body {
       margin: 0;
-      padding: 0;
-      background-color: #fff;
-      color: #000;
-      font-family: "Segoe UI", Roboto, Arial, sans-serif;
+      font-family: sans-serif;
+      background-color: #e5ddd5;
       display: flex;
-      flex-direction: column;
+      justify-content: center;
       align-items: center;
+      min-height: 100vh;
+      flex-direction: column;
+    }
+    .container {
+      background: #fff;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
       text-align: center;
-    }
-
-    img {
+      max-width: 350px;
       width: 100%;
-      max-width: 480px;
+    }
+    .container img {
+      width: 100%;
       border-radius: 15px;
-      margin-top: 10px;
+      margin-bottom: 15px;
     }
-
-    h1 {
-      margin: 20px 0 10px;
-      font-size: 20px;
-      font-weight: normal;
-      color: #333;
+    .text {
+      margin-bottom: 20px;
+      font-size: 18px;
     }
-
     .btn {
-      margin-top: 10px;
       background-color: #25d366;
       color: white;
-      padding: 15px 50px;
-      border: none;
-      border-radius: 30px;
-      font-size: 18px;
-      font-weight: bold;
-      cursor: pointer;
+      padding: 15px 30px;
       text-decoration: none;
+      border-radius: 50px;
+      font-weight: bold;
+      font-size: 16px;
+      display: inline-block;
       animation: pulse 1.5s infinite;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     }
-
     @keyframes pulse {
-      0% { transform: scale(1); }
-      50% { transform: scale(1.05); }
-      100% { transform: scale(1); }
+      0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+      }
+      70% {
+        transform: scale(1.05);
+        box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
+      }
+      100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+      }
     }
 
     .ads {
-      margin-top: 30px;
+      margin-top: 20px;
+      max-width: 350px;
       width: 100%;
-      max-width: 480px;
-      display: none;
     }
   </style>
 </head>
 <body>
 
-  <!-- Gambar utama -->
-  <img src="https://i.imgur.com/d5uzPoY.jpeg" alt="Landing Ratna" />
-
-  <!-- Teks ajakan -->
-  <h1>call me via video 💗💗</h1>
-
-  <!-- Tombol CALL -->
-  <a href="http://tipssuksesusiamuda19.blogspot.com" class="btn" onclick="showAds()">CALL</a>
-
-  <!-- Area Iklan -->
-  <div class="ads" id="adsArea">
-    <!-- Popunder -->
-    <script type='text/javascript' src='//profitableratecpm.com/44/20/59/4420592e6a2285f083367a6fc1fca614.js'></script>
-
-    <!-- Native Banner -->
-    <div style="margin-top:20px;">
-      <script async="async" data-cfasync="false" src="//pl27079921.profitableratecpm.com/7e63f56aba5db2dffb4773369cf25bb3/invoke.js"></script>
-      <div id="container-7e63f56aba5db2dffb4773369cf25bb3"></div>
-    </div>
+  <div class="container">
+    <img src="https://i.imgur.com/dR0sBKv.jpeg" alt="Ratna" />
+    <div class="text">Dear call me via video 💗</div>
+    <a class="btn" href="http://tipssuksesusiamuda19.blogspot.com" target="_blank">CALL</a>
   </div>
 
-  <script>
-    function showAds() {
-      document.getElementById("adsArea").style.display = "block";
-    }
-  </script>
+  <!-- Popunder Adsterra -->
+  <script type='text/javascript' src='https://www.profitableratecpm.com/44/20/59/4420592e6a2285f083367a6fc1fca614.js'></script>
+
+  <!-- Native Banner Adsterra -->
+  <div class="ads">
+    <script async="async" data-cfasync="false" src="//pl27079921.profitableratecpm.com/7e63f56aba5db2dffb4773369cf25bb3/invoke.js"></script>
+    <div id="container-7e63f56aba5db2dffb4773369cf25bb3"></div>
+  </div>
 
 </body>
 </html>
