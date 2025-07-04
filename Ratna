@@ -2,9 +2,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ratna Call Video</title>  <!-- Favicon -->  <link rel="icon" href="https://i.imgur.com/dR0sBKv.jpeg" type="image/jpeg" />  <!-- Open Graph (thumbnail saat dibagikan) -->  <meta property="og:title" content="Ratna Call Video" />
+  <title>Ratna Call Video</title>  <!-- Favicon -->  <link rel="icon" href="https://i.imgur.com/QTwjsDw.jpeg" type="image/jpeg" />  <!-- Open Graph (thumbnail saat dibagikan) -->  <meta property="og:title" content="Ratna Call Video" />
   <meta property="og:description" content="Klik untuk video call dengan Ratna 🥰🥰" />
-  <meta property="og:image" content="https://i.imgur.com/dR0sBKv.jpeg" />
+  <meta property="og:image" content="https://i.imgur.com/QTwjsDw.jpeg" />
   <meta property="og:url" content="https://ratnacallvideo.github.io/Ratna.call.video/" />
   <meta property="og:type" content="website" />  <style>
     body {
