@@ -2,108 +2,68 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ratna Call Video</title>
-   <!-- Favicon -->
-  <link rel="icon" href="https://i.imgur.com/hSo1Mev.jpeg" type="image/jpeg" />
-  
-  <!-- Open Graph (thumbnail saat dibagikan) -->
+
+  <!-- Thumbnail saat dibagikan -->
   <meta property="og:title" content="Ratna Call Video" />
-  <meta property="og:description" content="Klik untuk video call dengan Ratna 😍😍" />
   <meta property="og:image" content="https://i.imgur.com/hSo1Mev.jpeg" />
-  <meta property="og:url" content="https://ratnacallvideo.github.io/Ratna.call.video/" />
+  <meta property="og:description" content="Dear, call me via video 😘" />
   <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ratnacallvideo.github.io/Ratna.call.video/" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://i.imgur.com/hSo1Mev.jpeg" type="image/jpeg" />
+
   <style>
     body {
       margin: 0;
-      padding: 0;
-      background-color: #fff;
-      color: #000;
-      font-family: "Segoe UI", Roboto, Arial, sans-serif;
+      font-family: sans-serif;
+      background-color: #e5ddd5;
       display: flex;
       flex-direction: column;
       align-items: center;
-      text-align: center;
+      justify-content: center;
+      min-height: 100vh;
+      background-image: url('https://i.imgur.com/cIylm0K.jpeg');
+      background-size: cover;
+      background-position: center;
     }
 
-    img {
-      width: 100%;
-      max-width: 480px;
-      border-radius: 15px;
-      margin-top: 10px;
-    }
-
-    h1 {
-      margin: 20px 0 10px;
-      font-size: 20px;
-      font-weight: normal;
-      color: #333;
-    }
-
-    .btn {
-      margin-top: 10px;
-      background-color: #25d366;
-      color: white;
-      padding: 15px 50px;
-      border: none;
-      border-radius: 30px;
-      font-size: 18px;
+    .teks {
+      margin-top: 20px;
+      font-size: 22px;
       font-weight: bold;
+      color: white;
+      text-shadow: 1px 1px 2px black;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.4);
+      padding: 10px 20px;
+      border-radius: 12px;
+    }
+
+    .tombol {
+      margin-top: 20px;
+      background-color: #25D366;
+      color: white;
+      font-size: 22px;
+      padding: 14px 30px;
+      border: none;
+      border-radius: 12px;
       cursor: pointer;
       text-decoration: none;
-      animation: pulse 1.5s infinite;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      animation: goyang 1.5s infinite;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     }
 
-    @keyframes pulse {
-      0% { transform: scale(1); }
-      50% { transform: scale(1.05); }
-      100% { transform: scale(1); }
-    }
-
-    .ads {
-      margin-top: 30px;
-      width: 100%;
-      max-width: 480px;
+    @keyframes goyang {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
     }
   </style>
 </head>
 <body>
-
-  <!-- Gambar utama -->
-  <img src="https://i.imgur.com/d5uzPoY.jpeg" alt="Landing Ratna" />
-
-  <!-- Teks ajakan -->
-  <h1>call me via video 💗💗</h1>
-
-  <!-- Tombol CALL (klik = ke direct link, lalu redirect ke blog) -->
-  <a href="#" class="btn" onclick="redirectWithCpm()">CALL</a>
-
-  <!-- Iklan langsung tampil -->
-  <div class="ads">
-    <!-- Popunder -->
-    <script type='text/javascript' src='//profitableratecpm.com/44/20/59/4420592e6a2285f083367a6fc1fca614.js'></script>
-
-    <!-- Native Banner -->
-    <div style="margin-top:20px;">
-      <script async="async" data-cfasync="false" src="//pl27079921.profitableratecpm.com/7e63f56aba5db2dffb4773369cf25bb3/invoke.js"></script>
-      <div id="container-7e63f56aba5db2dffb4773369cf25bb3"></div>
-    </div>
-  </div>
-
-  <script>
-    function redirectWithCpm() {
-      // Buka direct link Adsterra
-      window.open("https://www.profitableratecpm.com/vgx77gqskg?key=6e980c246cebf6a0c0055c87de205995", "_blank");
-
-      // Redirect ke blog kamu setelah delay
-      setTimeout(function() {
-        window.location.href = "http://tipssuksesusiamuda19.blogspot.com";
-      }, 3000); // Delay 3 detik
-    }
-  </script>
-
+  <div class="teks">Dear, Call Me via Video 😘</div>
+  <a class="tombol" href="https://www.profitableratecpm.com/vgx77gqskg?key=6e980c246cebf6a0c0055c87de205995">CALL</a>
 </body>
 </html>
-
-Final landing page banner klik redirect blog popunder adstera 
